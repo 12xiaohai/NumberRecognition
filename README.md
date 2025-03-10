@@ -130,6 +130,6 @@ pip install -r requirements.txt
 
 ### 致谢
 
-- MNIST数据集由Yann LeCun提供：[官网链接](https://yann.lecun.com/exdb/mnist/)
+- MNIST数据集由Yann LeCun提供：[官网链接](http://yann.lecun.com/exdb/mnist/)
 - 基于PyTorch开源机器学习框架开发
 
