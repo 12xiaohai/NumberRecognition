@@ -36,13 +36,13 @@ if __name__ == '__main__':
     # 遍历训练DataLoader 的前几个批次
     for batch_idx, (data, label) in enumerate(train_loader):
 
-        print("batch_idx: ", batch_idx)
+        print("batch_idx: ", batch_idx)  # 打印批次索引
 
-        print("data.shape: ", data.shape)
+        print("data.shape: ", data.shape)  # 打印数据张量形状
 
-        print("label.shape: ", label.shape)
+        print("label.shape: ", label.shape)  # 打印标签张量形状
 
-        print(label)
+        print(label)  # 打印标签张量
 
     # 初始化神经网络模型
     model = Network()
